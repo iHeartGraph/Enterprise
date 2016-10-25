@@ -68,7 +68,8 @@ The overall code structure of this project is:
 
 - gather.h: copy results from GPU to CPU. 
 
-**Should you have any questions or interest about this project, please contact us by iheartgraph@gmail.com.**
+
+**Should you have any questions about this project, please contact us by iheartgraph@gmail.com.**
 
 --
 Reference
