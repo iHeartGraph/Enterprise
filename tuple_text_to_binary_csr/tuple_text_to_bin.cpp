@@ -63,7 +63,7 @@ int main(int argc, char** argv){
 	if(argc<4){printf("Wrong input\n");exit(-1);}
 	
 	size_t file_size = fsize(argv[1]);
-	int is_reverse=(atol(argv[2])==1);	
+	bool is_reverse=(atol(argv[2])==1);	
 	long skip_head=atol(argv[3]);
 	
 
@@ -92,6 +92,7 @@ int main(int argc, char** argv){
 		head_offset++;
 		if(ss_head[head_offset]=='\n')
 		{
+			head_offset++;
 			skip_count++;
 			if(skip_count == skip_head) break;
 		}
@@ -109,9 +110,14 @@ int main(int argc, char** argv){
 	vertex_t v_max = 0;
 	vertex_t v_min = INFTY;//as infinity
 	vertex_t a;
+
+	//int reg = 0;
 	while(next<file_size){
 		char* sss=ss+curr;
 		a = atol(sss);
+		//std::cout<<a<<"\n";
+		//if(reg ++ > 10) break;
+
 		if(v_max<a){
 			v_max = a;
 		}
@@ -285,7 +291,7 @@ int main(int argc, char** argv){
 
 //	for(int i=0; i<edge_count; i++){
 //	for(int i=0; i<64; i++){
-//		cout<<head[i]<<"	"<<adj[i]<<endl;
+//		cout<<degree[i]<<endl;
 //	}
 
 	munmap( ss,sizeof(char)*file_size );
