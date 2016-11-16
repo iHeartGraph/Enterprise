@@ -74,6 +74,6 @@ The overall code structure of this project is:
 --
 Reference
 -------
-[SC '15] Enterprise: Breadth-First Graph Traversal on GPUs [[PDF](http://home.gwu.edu/~asherliu/publication/enterprise_sc15.pdf)] [[Slides](http://home.gwu.edu/~asherliu/publication/enterprise_sc15.pdf)] [[Blog](http://home.gwu.edu/~asherliu/publication/enterprise_sc15.pdf)]
+[SC '15] Enterprise: Breadth-First Graph Traversal on GPUs [[PDF](http://hang-liu.com/publication/enterprise_sc15.pdf)] [[Slides](http://hang-liu.com/publication/enterprise_slides.pdf)] [[Blog](http://hang-liu.com/enterprise_blog.html)]
 
-[SIGMOD '16] iBFS: Concurrent Breadth-First Search on GPUs [[PDF](http://home.gwu.edu/~asherliu/publication/ibfs.pdf)] [[Slides](http://home.gwu.edu/~asherliu/publication/ibfs_slides.pdf)] [[Poster](http://home.gwu.edu/~asherliu/publication/ibfs_poster.pdf)]
+[SIGMOD '16] iBFS: Concurrent Breadth-First Search on GPUs [[PDF](http://hang-liu.com/publication/ibfs.pdf)] [[Slides](http://hang-liu.com/publication/ibfs_slides.pdf)] [[Poster](http://hang-liu.com/publication/ibfs_poster.pdf)]
