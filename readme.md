@@ -1,11 +1,11 @@
---
+-----
 Software requirement
 -----
 gcc 4.4.7 or 4.8.5
 
 CUDA 5.5, 6.0, 6.5, 7.0, 7.5 (tested and works)
 
---
+-----
 Hardware
 ------
 GPU: C2050, C2070, K20, K40 (tested)
@@ -16,7 +16,7 @@ Compile
 
 make
 
---
+-----
 Execute
 ------
 Type: "./enterprise.bin" it will show you what is needed.
@@ -25,7 +25,7 @@ Tips: It needs a CSR formated graph (beg file and csr file).
 
 You could use the code from "tuple_text_to_bin.binary_csr" folder to convert a edge list (text formated) graph into CSR files (binary), e.g., if you have a text file called "test.txt", it will convert it into "test.txt_beg_pos.bin" and "test.txt_csr.bin". You will need these two files to run enterprise.
 
---
+-----
 Converter: edge tuples to CSR
 ----
 - Compile: make
@@ -39,7 +39,7 @@ Converter: edge tuples to CSR
 - You will get *soc-orkut.mtx_beg_pos.bin* and *soc-orkut.mtx_csr.bin*. 
 - You could use these two files to run enterprise.
 
---
+-----
 Code specification
 ---------
 The overall code structure of this project is:
@@ -71,7 +71,7 @@ The overall code structure of this project is:
 
 **Should you have any questions about this project, please contact us by iheartgraph@gmail.com.**
 
---
+-----
 Reference
 -------
 [SC '15] Enterprise: Breadth-First Graph Traversal on GPUs [[PDF](http://hang-liu.com/publication/enterprise_sc15.pdf)] [[Slides](http://hang-liu.com/publication/enterprise_slides.pdf)] [[Blog](http://hang-liu.com/enterprise_blog.html)]
