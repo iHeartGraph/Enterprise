@@ -10,7 +10,7 @@ Hardware
 ------
 GPU: C2050, C2070, K20, K40 (tested)
 
---
+-----
 Compile
 -----
 
