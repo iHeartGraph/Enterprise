@@ -73,7 +73,8 @@ int main(int args, char *argv[]) {
 			}
 
 			if(isNew) src_list[i]=src;
-		}
+			else --i;//when src is redundant
+		}else --i;//when src is an orphan vertex
 	}
 
 	bfs_gpu_coalescing_mem<vertex_t,index_t>(
